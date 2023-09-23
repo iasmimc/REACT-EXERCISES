@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Digitalism";
+  src: url("../.././public/assets/fonts/digitalism.ttf") format("truetype");
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  text-align: center;
+}
+
+main{
+  margin-top: 100px;
+}
+
+.timer-wrapper, .toggle-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.toggle-wrapper{
+  gap: 90px;
+  margin: 10px auto;
+}
+
+.toggle-wrapper button{
+  color: darkred;
+}
+
+.toggle-wrapper button:hover{
+  color: red;
+}
+
+
+.timer-wrapper{
+  border: 1px solid red;
+  padding: 40px 0;
+}
+
+.buttons-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+h1, button{
+  font-family: "Digitalism", sans-serif;
+  color: red;
+  letter-spacing: 6px;
+}
+
+h1{
+  font-size: 8rem;
+}
+
+button{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.mensagem {
+  margin-top: 80px;
+}
